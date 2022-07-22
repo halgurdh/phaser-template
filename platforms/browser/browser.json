@@ -1,0 +1,23 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-exclude-files": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-android-support-gradle-release": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [],
+  "plugin_metadata": {
+    "cordova-plugin-exclude-files": "1.0.0",
+    "cordova-android-support-gradle-release": "3.0.1"
+  }
+}

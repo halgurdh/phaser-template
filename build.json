@@ -1,0 +1,27 @@
+{
+    "android": {
+        "release": {
+            "keystore": "minitoon.keystore",
+            "storePassword": ".4Lsattr",
+            "alias": "minitoon",
+            "password": ".4Lsattr",
+            "keystoreType": ""
+        }
+    },
+    "ios": {
+        "debug": {
+            "codeSignIdentity": "iPhone Developer",
+            "developmentTeam": "FG35JLLMXX4A",
+            "packageType": "development",
+            "buildFlag": [
+            ]
+        },
+        "release": {
+            "codeSignIdentity": "iPhone Developer",
+            "developmentTeam": "FG35JLLMXX4A",
+            "packageType": "app-store",
+            "buildFlag": [
+            ]
+        }
+    }
+}

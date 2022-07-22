@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<style>
+    @font-face {
+        font-family: 'blogger';
+        src: url('assets/fonts/blogger.otf');
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'blogger', sans-serif;
+    }
+
+    html body {
+        background-image: url("assets/logotile.png");
+        background-color: #ffffff;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: 0;
+    }
+
+    canvas {
+        height: 100%;
+        width: 100%;
+        margin: 0!important;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+<html>
+    <head>
+        <!-- Comment for Codova Release -->
+        <!-- <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width,  viewport-fit=cover, user-scalable=no, minimal-ui"> -->
+        
+        <!-- Remove Comment for Codova Release -->
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        
+        <!-- Remove Comment for Codova Release -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <!-- Comment for Codova Release -->
+        <!-- <script src="https://connect.facebook.net/en_US/fbinstant.6.2.js"></script> -->
+        <title>Template</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="build/project.bundle.js" charset="utf-8"></script>
+    </body>
+</html>
